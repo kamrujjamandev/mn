@@ -1,0 +1,236 @@
+/* ==== 
+ --------- (4.1) header styles start ---------
+ ==== */
+.navbar {
+    padding: 20px 24px;
+    background-color: #FFFEFC;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9999;
+
+    @include responsive(xs) {
+        padding: 20px 15px;
+    }
+}
+
+.navbar-brand {
+    font-family: $yeseva;
+    font-size: 32px;
+    line-height: 36px;
+    border: 0px;
+    outline: 0px;
+    background-color: transparent;
+
+    @include responsive(xs) {
+        font-size: 26px;
+        line-height: 30px;
+    }
+}
+
+.navbar__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar__content-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    @include responsive(sm) {
+        gap: 10px;
+    }
+}
+
+.notification-wrapper {
+    position: relative;
+
+    .notification {
+        font-size: 24px;
+        color: #9E9E9E;
+    }
+
+    .notification-content {
+        background-color: $white;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+        position: absolute;
+        top: calc(100% + 30px);
+        right: 0px;
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+        transform: scale(0.8) translateX(80px);
+        visibility: hidden;
+        z-index: 99;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            right: 75px;
+            border: 10px solid transparent;
+            border-bottom-color: #9E9E9e;
+        }
+    }
+
+    .notification-content-wrapper {
+        min-width: 300px;
+        max-width: 350px;
+        max-height: 380px;
+        overflow-y: auto;
+
+        @include responsive(xs) {
+            min-width: 270px;
+        }
+    }
+
+    .notification-content-active {
+        opacity: 1;
+        transform: scale(1) translateX(80px);
+        visibility: visible;
+    }
+
+    .notification-content-inactive {
+        transform: scale(0.8) translateX(80px);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+}
+
+
+.notification-single {
+    transition: $primary-transition;
+    padding: 20px;
+    border-bottom: 1px solid #e6eaed;
+
+    a {
+        display: block;
+    }
+
+    span {
+        display: block;
+    }
+
+    .notification-header {
+        font-size: 18px;
+        color: $primary-color;
+        margin-bottom: 10px;
+    }
+
+    .secondary-text {
+        color: $secondary-color;
+    }
+
+    .notification-time {
+        margin-top: 10px;
+        color: $primary-color;
+    }
+
+    &:hover {
+        background-color: #F2F8FD;
+    }
+}
+
+.profile-wrapper {
+    position: relative;
+
+    .profile {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        @include responsive(sm) {
+            gap: 5px;
+        }
+    }
+
+    .profile-info {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .profile-name {
+        color: $black;
+        font-family: $roboto;
+        font-weight: 500;
+        margin: 0px;
+
+        @include responsive(xs) {
+            display: none;
+        }
+    }
+
+    .profile-chevron {
+        color: #9E9E9E;
+        cursor: pointer;
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .profile-content {
+        position: absolute;
+        top: calc(100% + 21px);
+        right: 0px;
+        min-width: 130px;
+        background-color: $white;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+        transform: scale(0.8);
+        visibility: hidden;
+        z-index: 999;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            right: 10px;
+            border: 10px solid transparent;
+            border-bottom-color: #9E9E9e;
+
+        }
+
+        a {
+            display: block;
+            padding: 10px 20px;
+            border-bottom: 1px solid #e6eaed;
+            text-align: left;
+            transition: $primary-transition;
+
+            &:hover {
+                background-color: #e6eaed;
+            }
+        }
+    }
+
+    .profile-content-active {
+        opacity: 1;
+        transform: scale(1);
+        visibility: visible;
+    }
+
+    .profile-content-inactive {
+        transform: scale(0.8);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.open-sidebar {
+    display: none;
+
+    @include responsive(md) {
+        display: block;
+    }
+}
+
+/* ==== 
+ --------- (4.1) header styles end ---------
+ ==== */

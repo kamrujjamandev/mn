@@ -1,0 +1,39 @@
+[
+    {
+        "icon": "MdDashboard",
+        "title": "Home",
+        "path": "/"
+    },
+    {
+        "icon": "MdWork",
+        "title": "Admission",
+        "path": "/admission",
+        "childrens": [
+            {
+                "icon": "MdWork",
+                "title": "Applied",
+                "path": "/applied"
+            },
+            {
+                "icon": "MdSupervisorAccount",
+                "title": "Saved",
+                "path": "/saved"
+            }
+        ]
+    },
+    {
+        "icon": "MdSupervisorAccount",
+        "title": "Profile",
+        "path": "/profile"
+    },
+    {
+        "icon": "MdSettings",
+        "title": "Settings",
+        "path": "/settings"
+    },
+    {
+        "icon": "MdOutlineHelp",
+        "title": "Help",
+        "path": "/help"
+    }
+]

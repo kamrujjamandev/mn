@@ -1,0 +1,552 @@
+[
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Berlin",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Worldwide"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Bangladesh",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Bangladesh"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of Germany",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "Germany"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Australia",
+        "universiteCategory": "Engineering University",
+        "universitylocation": "Cardiff, Wales, UK",
+        "universitytype": "public",
+        "universityArea": "Australia"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Canada",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Canada"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of UK",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "UK"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of USA",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "USA", "universityArea": "USA"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Berlin",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Worldwide"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Bangladesh",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Bangladesh"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of Germany",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "Germany"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Australia",
+        "universiteCategory": "Engineering University",
+        "universitylocation": "Cardiff, Wales, UK",
+        "universitytype": "public",
+        "universityArea": "Australia"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Canada",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Canada"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of UK",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "UK"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of USA",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "USA", "universityArea": "USA"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Berlin",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Worldwide"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Bangladesh",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Bangladesh"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of Germany",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "Germany"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Australia",
+        "universiteCategory": "Engineering University",
+        "universitylocation": "Cardiff, Wales, UK",
+        "universitytype": "public",
+        "universityArea": "Australia"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Canada",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Canada"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of UK",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "UK"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of USA",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "USA", "universityArea": "USA"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Berlin",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Worldwide"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Bangladesh",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Bangladesh"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of Germany",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "Germany"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Australia",
+        "universiteCategory": "Engineering University",
+        "universitylocation": "Cardiff, Wales, UK",
+        "universitytype": "public",
+        "universityArea": "Australia"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Canada",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Canada"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of UK",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "UK"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of USA",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "USA", "universityArea": "USA"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Berlin",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Worldwide"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Bangladesh",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Bangladesh"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of Germany",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "Germany"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Australia",
+        "universiteCategory": "Engineering University",
+        "universitylocation": "Cardiff, Wales, UK",
+        "universitytype": "public",
+        "universityArea": "Australia"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Canada",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Canada"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of UK",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "UK"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of USA",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "USA", "universityArea": "USA"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Berlin",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Worldwide"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Bangladesh",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Bangladesh"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of Germany",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "Germany"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Australia",
+        "universiteCategory": "Engineering University",
+        "universitylocation": "Cardiff, Wales, UK",
+        "universitytype": "public",
+        "universityArea": "Australia"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Canada",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Canada"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of UK",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "UK"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of USA",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "USA", "universityArea": "USA"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Berlin",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Worldwide"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Bangladesh",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Bangladesh"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of Germany",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "Germany"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Australia",
+        "universiteCategory": "Engineering University",
+        "universitylocation": "Cardiff, Wales, UK",
+        "universitytype": "public",
+        "universityArea": "Australia"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Canada",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Canada"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of UK",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "UK"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of USA",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "USA", "universityArea": "USA"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Berlin",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Worldwide"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Bangladesh",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Bangladesh"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of Germany",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "Germany"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Australia",
+        "universiteCategory": "Engineering University",
+        "universitylocation": "Cardiff, Wales, UK",
+        "universitytype": "public",
+        "universityArea": "Australia"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Canada",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Canada"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of UK",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "UK"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of USA",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "USA", "universityArea": "USA"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Berlin",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Worldwide"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Bangladesh",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Bangladesh"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of Germany",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "Germany"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Australia",
+        "universiteCategory": "Engineering University",
+        "universitylocation": "Cardiff, Wales, UK",
+        "universitytype": "public",
+        "universityArea": "Australia"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Canada",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Canada"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of UK",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "UK"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of USA",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "USA", "universityArea": "USA"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Berlin",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Worldwide"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Bangladesh",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Bangladesh"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of Germany",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "Germany"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of Australia",
+        "universiteCategory": "Engineering University",
+        "universitylocation": "Cardiff, Wales, UK",
+        "universitytype": "public",
+        "universityArea": "Australia"
+    },
+    {
+        "universityImage": "/images/universities/two.png",
+        "universityName": "Humboldt University of Canada",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "public",
+        "universityArea": "Canada"
+    },
+    {
+        "universityImage": "/images/universities/three.png",
+        "universityName": "Humboldt University of UK",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "private",
+        "universityArea": "UK"
+    },
+    {
+        "universityImage": "/images/universities/one.png",
+        "universityName": "Humboldt University of USA",
+        "universiteCategory": "Research University",
+        "universitylocation": "Berlin, Germany",
+        "universitytype": "USA", "universityArea": "USA"
+    }
+]

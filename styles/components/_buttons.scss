@@ -1,0 +1,25 @@
+/* ==== 
+ --------- (3.1) button styles start ---------
+ ==== */
+
+// button styles
+.cmn-button {
+  padding: 12px 25px;
+  background-color: $primary-color;
+  color: $white;
+  font-family: $roboto;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid $primary-color;
+  border-radius: 8px;
+  transition: $primary-transition;
+
+  &:hover {
+    background-color: $white;
+    color: $primary-color;
+  }
+}
+
+/* ==== 
+   --------- (3.1) button styles end ---------
+ ==== */

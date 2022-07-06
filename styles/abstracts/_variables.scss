@@ -1,0 +1,46 @@
+// (1.2) variables
+
+// sf pro font source
+@font-face {
+    font-family: SFPro;
+    src: url(../../public/fonts/SFPRODISPLAYREGULAR.OTF) format(opentype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: SFPro;
+    src: url(../../public/fonts/SFPRODISPLAYMEDIUM.OTF) format(opentype);
+    font-weight: 500;
+}
+
+// yeseve one and roboto google fonts source
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yeseva+One&display=swap');
+
+// font family
+$roboto: 'Roboto', sans-serif;
+$sf: "SFPro", sans-serif;
+$yeseva: 'Yeseva One', cursive;
+
+
+// theme default
+$theme-font: $roboto;
+$theme-bg: #ffffff;
+$theme-color: #9E9E9E;
+
+// colors
+$white: #ffffff;
+$black: #000000;
+$primary-color: #02547D;
+$secondary-color: #9B9DA6;
+$tertiary-color: #354455;
+$quaternary-color: #D6DFFF;
+$quinary-color: #FFFEFC;
+
+// transitions
+$primary-transition: all 0.3s ease-out;
+$secondary-transition: all 0.4s ease-in;
+
+// box shadow
+$primary-shadow: 2px 0px 4px rgba(0, 0, 0, 0.1);
+$secondary-shadow: inset -7px -7px 10px rgba(255, 255, 255, 0.33), inset 7px 7px 16px rgba(255, 255, 255, 0.25);
+$tertiary-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);

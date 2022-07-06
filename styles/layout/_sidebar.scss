@@ -1,0 +1,126 @@
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background-color: #FFFEFC;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    bottom: 0px;
+    overflow-y: auto;
+    z-index: 99;
+}
+
+.sidebar-single-link {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 12px;
+    padding: 20px 0px 20px 26px;
+
+    .icon {
+        height: 26px;
+
+        svg {
+            font-size: 24px;
+            line-height: inherit;
+            color: #BCBEC9;
+            transition: $primary-transition;
+        }
+    }
+
+    .link-text {
+        font-family: $roboto;
+        font-weight: 500;
+        color: #9B9DA6;
+        transition: $primary-transition;
+    }
+}
+
+.sidenav-toggle-icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: #BCBEC9;
+}
+
+.sidebar-single__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-right: 26px;
+    transition: $primary-transition;
+
+    &:hover {
+        background-color: #F2F8FD;
+
+        .sidebar-single-link {
+
+            .icon {
+                svg {
+                    color: $primary-color;
+                }
+            }
+
+            .link-text {
+                color: $primary-color;
+            }
+        }
+
+        .sidenav-toggle-icon {
+            color: $primary-color;
+        }
+    }
+
+    span {
+        margin: 0px;
+    }
+}
+
+.sidebar-single__item-alt {
+    padding-right: 0px;
+
+    .sidebar-single-link {
+        padding-right: 26px;
+    }
+}
+
+.sidebar-single-content {
+    opacity: 0;
+    visibility: hidden;
+    height: 0px;
+    transition: all 0.2s ease-in-out;
+    transition: $primary-transition;
+
+    a {
+        display: flex;
+        padding: 16px 16px 16px 70px;
+        font-family: $roboto;
+        font-size: 16px;
+        font-weight: 500;
+        color: #9B9DA6;
+
+        &:hover {
+            background-color: #F2F8FD;
+            color: $primary-color;
+        }
+    }
+}
+
+.sidebar-single-content-active {
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        margin-left: -300px;
+        transition: $primary-transition;
+        z-index: 99;
+    }
+
+    .sidebar-active {
+        margin-left: 0px;
+    }
+}

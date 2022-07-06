@@ -1,0 +1,199 @@
+/* ==== 
+ --------- (2.1) reset styles start ---------
+ ==== */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #cae6f7;
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-button,
+  &::-webkit-scrollbar-thumb {
+    background-color: $secondary-color;
+    border-radius: 5px;
+  }
+
+  &::-moz-selection {
+    color: #ffffff;
+    background-color: #1770c8;
+  }
+
+  &::selection {
+    color: #ffffff;
+    background-color: #1770c8;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+body {
+  font-family: $theme-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0px;
+  color: $theme-color;
+  background-color: $theme-bg;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+
+  @include responsive(sm) {
+    font-size: 16px;
+  }
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  border: 0px;
+  transition: $primary-transition;
+
+  i {
+    transition: inherit;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border: 0px;
+  }
+}
+
+.disabled-link {
+  pointer-events: none;
+  cursor: pointer;
+}
+
+button {
+  border: 0px;
+  outline: 0px;
+  cursor: pointer;
+  background-color: transparent;
+
+  &:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 0px;
+    background-color: transparent;
+  }
+}
+
+ul,
+ol {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0px;
+  padding: 0px;
+}
+
+input,
+textarea {
+  &:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 0px;
+  }
+}
+
+input {
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="checkbox"] {
+  width: initial;
+  height: initial;
+}
+
+textarea {
+  min-height: 150px;
+  resize: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+iframe {
+  border: 0px;
+  width: 100%;
+}
+
+span {
+  display: inline-block;
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+.container,
+.container-fluid {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.row>* {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* ==== 
+     --------- (2.1) reset styles end ---------
+   ==== */

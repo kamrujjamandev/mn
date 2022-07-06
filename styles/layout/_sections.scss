@@ -1,0 +1,207 @@
+/* ==== 
+ --------- (4.4) all sections styles start ---------
+ ==== */
+.main {
+    margin-top: 80px;
+    display: flex;
+    align-items: flex-start;
+
+    .main-content {
+        width: calc(100% - 240px);
+        margin-left: 240px;
+
+        @include responsive(md) {
+            width: 100%;
+            margin-left: 0px;
+        }
+    }
+}
+
+// apply section
+.apply-section {
+    padding: 100px 24px;
+    background-image: url('/images/profile/dot.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center right 33%;
+
+    @include responsive(sm) {
+        padding: 60px 15px;
+    }
+}
+
+.apply-section-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include responsive(sm) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #354455;
+    }
+
+    .apply-section-cta {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .apply-now {
+        font-family: $roboto;
+        font-size: 18px;
+        text-transform: capitalize;
+        padding: 16px 32px;
+        color: $primary-color;
+        background-color: $white;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+        border-radius: 40px;
+        border: 3px solid transparent;
+        background-clip: padding-box;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: -3px;
+            bottom: -3px;
+            left: -3px;
+            right: -3px;
+            background-image: radial-gradient(223.28% 626.63% at 7.06% -5.17%, #FFFFFF 0%, #02547D 100%);
+            z-index: -1;
+            border-radius: 40px;
+        }
+    }
+}
+
+// suggested univesities
+.suggested-univesities-wrapper {
+    padding: 0px 0px 0px 24px;
+    margin-bottom: 40px;
+
+    @include responsive(sm) {
+        padding-left: 15px;
+    }
+}
+
+.versity-filter-btn-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.filter-btn {
+    padding: 12px 28px;
+    background-color: $white;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    border-radius: 30px;
+    transition: $primary-transition;
+    font-family: $roboto;
+    font-weight: 500;
+
+    &:hover {
+        background-color: $primary-color;
+        color: $white;
+        border: 1px solid $primary-color  !important;
+    }
+}
+
+.filter-btn-active {
+    background-color: $primary-color  !important;
+    color: $white  !important;
+    border: 1px solid $primary-color  !important;
+}
+
+.veristy-item-wrapper {
+    margin-top: 40px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+
+    .swiper-slide {
+        width: 335px !important;
+        padding-bottom: 20px;
+
+        @include responsive(xxs) {
+            width: 280px !important;
+        }
+    }
+
+    .swiper {
+        padding-left: 10px;
+    }
+}
+
+.versity-item {
+    width: 330px;
+    background-color: $white;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+
+    img {
+        border-radius: 12px;
+    }
+
+    @include responsive(xxs) {
+        width: 280px;
+    }
+}
+
+.versity-item-content-wrapper {
+    padding: 16px 12px;
+}
+
+.versity-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    p {
+        margin: 0px;
+    }
+
+    .location {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .tag {
+        background: #BBE0FF;
+        border-radius: 4px;
+        padding: 4px 8px;
+        font-family: $roboto;
+        font-weight: 500;
+    }
+}
+
+// previous view section styles
+.viewed-wrapper {
+    padding: 0px 0px 0px 24px;
+
+    @include responsive(sm) {
+        padding-left: 15px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .veristy-item-wrapper {
+        margin-top: 0px;
+    }
+}
+
+/* ==== 
+ --------- (4.4) all sections styles end ---------
+ ==== */
